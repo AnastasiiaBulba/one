@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stay updated with the latest Safari Match news, game updates, and trail diaries. Discover new features, tips, and exciting developments in the wild safari puzzle adventure."
+    />
+    <meta
+      name="keywords"
+      content="Safari Match news, game updates, trail diaries, safari game news, puzzle game updates"
+    />
+    <title>Nextlevelquesting.com - News</title>
+    <link rel="icon" type="image/jpeg" href="./pictures/Safari-fav.jpg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <main>
+      <section class="news-hero">
+        <div class="container">
+          <h1>Safari Match News</h1>
+          <p>
+            Stay updated with the latest developments, updates, and exciting
+            stories from the wild safari world!
+          </p>
+        </div>
+      </section>
+
+      <section class="news-section">
+        <div class="container">
+          <div class="news-category">
+            <h2>Game Updates</h2>
+            <div class="news-grid">
+              <article class="news-card">
+                <div class="news-image">
+                  <img
+                    src="./pictures/Safari-new1.jpg"
+                    alt="New Safari Match Features"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="news-content">
+                  <h3>Exciting New Features Released!</h3>
+                  <p class="news-meta">
+                    Published:
+                    <time datetime="2025-07-15">July 15, 2025</time>
+                  </p>
+                  <p class="news-excerpt">
+                    Discover the latest enhancements to Safari Match, including
+                    new animal blocks, special power-ups, and challenging levels
+                    that will test your puzzle-solving skills.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    data-category="updates"
+                    data-id="1"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-image">
+                  <img
+                    src="./pictures/Safari-new2.jpg"
+                    alt="Safari Match Level Expansion"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="news-content">
+                  <h3>100+ New Levels Added!</h3>
+                  <p class="news-meta">
+                    Published:
+                    <time datetime="2025-07-10">July 10, 2025</time>
+                  </p>
+                  <p class="news-excerpt">
+                    We've expanded the safari adventure with over 100 new
+                    challenging levels. Navigate through dense forests, cross
+                    rivers, and explore new territories.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    data-category="updates"
+                    data-id="2"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="news-category">
+            <h2>Trail Diaries</h2>
+            <div class="news-grid">
+              <article class="news-card">
+                <div class="news-content">
+                  <h3>Behind the Scenes: Creating the Safari World</h3>
+                  <p class="news-meta">
+                    Published:
+                    <time datetime="2025-07-08">July 8, 2025</time>
+                  </p>
+                  <p class="news-excerpt">
+                    Take a journey behind the scenes and discover how our team
+                    created the immersive safari environment. Learn about the
+                    inspiration, design process, and the challenges we faced.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    data-category="diaries"
+                    data-id="1"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-content">
+                  <h3>Community Spotlight: Player Stories</h3>
+                  <p class="news-meta">
+                    Published:
+                    <time datetime="2025-07-05">July 5, 2025</time>
+                  </p>
+                  <p class="news-excerpt">
+                    Meet some of our amazing players and hear their stories.
+                    From casual gamers to puzzle masters, discover how Safari
+                    Match has brought joy to players worldwide.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    data-category="diaries"
+                    data-id="2"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal for full articles -->
+      <div id="news-modal" class="news-modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/header-builder.js"></script>
+    <script src="./js/footer-builder.js"></script>
+    <script src="./js/news.js"></script>
+  </body>
+</html>

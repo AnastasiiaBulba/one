@@ -1,0 +1,377 @@
+{
+  "templates": {
+    "game_themes": {
+      "safari": {
+        "name": "Safari Match",
+        "description": "Wild Safari Puzzle Adventure",
+        "theme": "african_safari",
+        "colors": {
+          "primary": "#8B4513",
+          "secondary": "#228B22",
+          "accent": "#FFD700",
+          "background": "#F5F5DC"
+        },
+        "animals": ["🦁", "🐘", "🦒", "🦛", "🦘", "🦓"],
+        "environment": ["🌿", "🌳", "💧", "🪨", "🌅", "🏔️"]
+      },
+      "ocean": {
+        "name": "Ocean Match",
+        "description": "Deep Sea Puzzle Adventure",
+        "theme": "underwater_ocean",
+        "colors": {
+          "primary": "#006994",
+          "secondary": "#00CED1",
+          "accent": "#FF69B4",
+          "background": "#E0F6FF"
+        },
+        "animals": ["🐠", "🐙", "🦈", "🐋", "🦀", "🐡"],
+        "environment": ["🌊", "🌊", "🪸", "🏝️", "💎", "🌊"]
+      },
+      "space": {
+        "name": "Space Match",
+        "description": "Galactic Puzzle Adventure",
+        "theme": "outer_space",
+        "colors": {
+          "primary": "#1a1a2e",
+          "secondary": "#16213e",
+          "accent": "#0f3460",
+          "background": "#0f0f23"
+        },
+        "animals": ["🚀", "🛸", "⭐", "🌙", "🪐", "☄️"],
+        "environment": ["🌌", "🌠", "💫", "🪐", "⭐", "🌙"]
+      },
+      "fantasy": {
+        "name": "Fantasy Match",
+        "description": "Magical Realm Puzzle Adventure",
+        "theme": "fantasy_world",
+        "colors": {
+          "primary": "#8B008B",
+          "secondary": "#9370DB",
+          "accent": "#FF1493",
+          "background": "#F0F8FF"
+        },
+        "animals": ["🐉", "🦄", "🧚", "🧙", "🦅", "🐺"],
+        "environment": ["🏰", "🌲", "🌈", "✨", "🌙", "⚡"]
+      }
+    },
+    "game_types": {
+      "match3": {
+        "name": "Match-3 Puzzle",
+        "description": "Classic match-3 gameplay with colorful blocks",
+        "mechanics": [
+          "swap_blocks",
+          "line_clearing",
+          "combo_system",
+          "power_ups"
+        ],
+        "difficulty": "easy_to_master"
+      },
+      "bubble_shooter": {
+        "name": "Bubble Shooter",
+        "description": "Pop bubbles and create chain reactions",
+        "mechanics": [
+          "aim_and_shoot",
+          "color_matching",
+          "chain_reactions",
+          "special_bubbles"
+        ],
+        "difficulty": "medium"
+      },
+      "candy_crush": {
+        "name": "Candy Crush Style",
+        "description": "Sweet match-3 with special candies",
+        "mechanics": [
+          "candy_matching",
+          "special_combinations",
+          "level_objectives",
+          "boosters"
+        ],
+        "difficulty": "easy_to_medium"
+      },
+      "puzzle_adventure": {
+        "name": "Puzzle Adventure",
+        "description": "Story-driven puzzle solving",
+        "mechanics": [
+          "story_mode",
+          "puzzle_solving",
+          "character_progression",
+          "world_exploration"
+        ],
+        "difficulty": "medium_to_hard"
+      }
+    },
+    "content_variations": {
+      "hero_sections": {
+        "adventure": {
+          "title_templates": [
+            "Embark on a {theme} adventure in this {game_type} game!",
+            "Discover the {theme} world through {game_type} challenges!",
+            "Journey into {theme} with {game_type} excitement!",
+            "Explore {theme} mysteries with {game_type} fun!"
+          ],
+          "subtitle_templates": [
+            "Experience the thrill of {theme} in every {game_type} level!",
+            "Master {game_type} skills while exploring {theme}!",
+            "Challenge yourself with {game_type} in the {theme} realm!",
+            "Unlock {theme} secrets through {game_type} mastery!"
+          ]
+        },
+        "casual": {
+          "title_templates": [
+            "Relax with {theme} {game_type} fun!",
+            "Enjoy peaceful {theme} {game_type} moments!",
+            "Unwind with {theme} {game_type} entertainment!",
+            "Take a break with {theme} {game_type} joy!"
+          ],
+          "subtitle_templates": [
+            "Perfect for casual {game_type} enjoyment in {theme}!",
+            "Easy {game_type} fun in the {theme} setting!",
+            "Simple {game_type} pleasure with {theme} charm!",
+            "Gentle {game_type} relaxation in {theme}!"
+          ]
+        }
+      },
+      "feature_descriptions": {
+        "visual": [
+          "Stunning {theme} graphics that bring the world to life",
+          "Beautiful {theme} visuals that immerse you completely",
+          "Gorgeous {theme} artwork that captivates your imagination",
+          "Exquisite {theme} design that creates an enchanting atmosphere"
+        ],
+        "gameplay": [
+          "Hundreds of challenging {game_type} levels to master",
+          "Progressive {game_type} difficulty that keeps you engaged",
+          "Innovative {game_type} mechanics that surprise and delight",
+          "Strategic {game_type} elements that test your skills"
+        ],
+        "social": [
+          "Connect with friends and compete in {game_type} challenges",
+          "Join a community of {game_type} enthusiasts",
+          "Share your {game_type} achievements with the world",
+          "Team up for special {game_type} events and tournaments"
+        ]
+      },
+      "review_templates": {
+        "positive": [
+          "Absolutely love this {game_type} game! The {theme} theme is {positive_adj} and the puzzles are {challenge_adj} but fun.",
+          "Great {game_type} experience with a unique {theme} twist. The levels get progressively more {challenge_adj}.",
+          "My {family_member} and I play this {game_type} together all the time. It's {educational_adj}, fun, and the {theme} elements are so {cute_adj}.",
+          "Been playing this {game_type} for months and still discovering new strategies. The {theme} world keeps me coming back."
+        ],
+        "positive_adjectives": [
+          "beautiful",
+          "amazing",
+          "incredible",
+          "fantastic",
+          "wonderful",
+          "stunning"
+        ],
+        "challenge_adjectives": [
+          "challenging",
+          "engaging",
+          "stimulating",
+          "exciting",
+          "thrilling",
+          "captivating"
+        ],
+        "educational_adjectives": [
+          "educational",
+          "learning",
+          "skill-building",
+          "brain-training",
+          "cognitive",
+          "developmental"
+        ],
+        "cute_adjectives": [
+          "cute",
+          "adorable",
+          "charming",
+          "lovely",
+          "sweet",
+          "endearing"
+        ],
+        "family_members": [
+          "kids",
+          "children",
+          "family",
+          "parents",
+          "siblings",
+          "friends"
+        ]
+      }
+    },
+    "seo_optimization": {
+      "title_patterns": [
+        "{game_name} - {theme_description} {game_type} Game",
+        "{game_name}: {theme} {game_type} Adventure",
+        "Play {game_name} - {theme} {game_type} Fun",
+        "{game_name} {game_type} Game - {theme} Experience"
+      ],
+      "description_patterns": [
+        "Play {game_name}, a {fun_adj} and {addictive_adj} {game_type} game set in the heart of {theme}! {core_mechanics} Easy to play yet {challenge_adj} to master, with {content_amount} and {visual_adj} graphics.",
+        "Experience {game_name}, the ultimate {theme} {game_type} adventure! {core_mechanics} Perfect for {target_audience} who love {game_categories}.",
+        "Discover {game_name}, where {theme} meets {game_type} excitement! {core_mechanics} {target_audience} will love the {theme_adj} atmosphere and {gameplay_adj} challenges."
+      ],
+      "keyword_groups": {
+        "game_mechanics": [
+          "match-3",
+          "puzzle",
+          "matching",
+          "block puzzle",
+          "brain game",
+          "arcade"
+        ],
+        "theme_keywords": [
+          "safari",
+          "ocean",
+          "space",
+          "fantasy",
+          "adventure",
+          "exploration"
+        ],
+        "target_audience": [
+          "kids",
+          "adults",
+          "family",
+          "casual gamers",
+          "puzzle lovers",
+          "strategy fans"
+        ],
+        "platform_keywords": [
+          "mobile",
+          "tablet",
+          "desktop",
+          "browser",
+          "online",
+          "web game"
+        ]
+      }
+    },
+    "localization": {
+      "languages": {
+        "en": {
+          "name": "English",
+          "code": "en",
+          "direction": "ltr",
+          "date_format": "MM/DD/YYYY"
+        },
+        "es": {
+          "name": "Español",
+          "code": "es",
+          "direction": "ltr",
+          "date_format": "DD/MM/YYYY"
+        },
+        "fr": {
+          "name": "Français",
+          "code": "fr",
+          "direction": "ltr",
+          "date_format": "DD/MM/YYYY"
+        },
+        "de": {
+          "name": "Deutsch",
+          "code": "de",
+          "direction": "ltr",
+          "date_format": "DD.MM.YYYY"
+        },
+        "ar": {
+          "name": "العربية",
+          "code": "ar",
+          "direction": "rtl",
+          "date_format": "DD/MM/YYYY"
+        }
+      },
+      "common_phrases": {
+        "play_now": {
+          "en": "Play Now",
+          "es": "Jugar Ahora",
+          "fr": "Jouer Maintenant",
+          "de": "Jetzt Spielen",
+          "ar": "العب الآن"
+        },
+        "learn_more": {
+          "en": "Learn More",
+          "es": "Saber Más",
+          "fr": "En Savoir Plus",
+          "de": "Mehr Erfahren",
+          "ar": "اعرف المزيد"
+        },
+        "contact_us": {
+          "en": "Contact Us",
+          "es": "Contáctanos",
+          "fr": "Contactez-nous",
+          "de": "Kontaktieren Sie uns",
+          "ar": "اتصل بنا"
+        }
+      }
+    },
+    "customization_options": {
+      "color_schemes": {
+        "warm": {
+          "primary": "#FF6B35",
+          "secondary": "#F7931E",
+          "accent": "#FFD23F",
+          "background": "#FFF8F0"
+        },
+        "cool": {
+          "primary": "#4A90E2",
+          "secondary": "#7ED321",
+          "accent": "#50E3C2",
+          "background": "#F0F8FF"
+        },
+        "neutral": {
+          "primary": "#6C757D",
+          "secondary": "#495057",
+          "accent": "#ADB5BD",
+          "background": "#F8F9FA"
+        },
+        "vibrant": {
+          "primary": "#FF1744",
+          "secondary": "#00E676",
+          "accent": "#FFC400",
+          "background": "#FFFFFF"
+        }
+      },
+      "font_families": {
+        "modern": ["'Segoe UI'", "Tahoma", "Geneva", "Verdana", "sans-serif"],
+        "classic": ["Georgia", "Times", "'Times New Roman'", "serif"],
+        "playful": ["'Comic Sans MS'", "cursive", "sans-serif"],
+        "elegant": ["'Playfair Display'", "Georgia", "serif"]
+      },
+      "layout_variants": {
+        "centered": {
+          "alignment": "center",
+          "max_width": "1200px",
+          "padding": "0 20px"
+        },
+        "left_aligned": {
+          "alignment": "left",
+          "max_width": "1400px",
+          "padding": "0 40px"
+        },
+        "full_width": {
+          "alignment": "stretch",
+          "max_width": "100%",
+          "padding": "0"
+        }
+      }
+    }
+  },
+  "quick_generation": {
+    "steps": [
+      "1. Choose a game theme from templates",
+      "2. Select game type and mechanics",
+      "3. Pick content variation style",
+      "4. Choose color scheme and fonts",
+      "5. Select layout variant",
+      "6. Generate unique content using templates",
+      "7. Apply SEO optimization patterns",
+      "8. Choose localization options"
+    ],
+    "output_files": [
+      "data.json - Main content structure",
+      "content-templates.json - This template file",
+      "customization.json - User-specific settings",
+      "localization.json - Language-specific content"
+    ]
+  }
+}

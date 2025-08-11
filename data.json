@@ -1,0 +1,445 @@
+{
+  "site": {
+    "name": "Safari Match",
+    "description": "Wild Safari Puzzle Adventure",
+    "domain": "domain.com",
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15"
+  },
+  "game": {
+    "title": "Safari Match",
+    "subtitle": "Embark on a wild adventure through the African savanna in this addictive match-3 puzzle game!",
+    "iframeUrl": "https://html5.gamemonetize.co/047gqvec2g1nektwuly9xns02mefpknw/",
+    "description": "Play Safari Match, a fun and addictive match-3 puzzle game set in the heart of the wild safari! Match colorful animal blocks, solve exciting puzzles, and unlock powerful boosters to win. Easy to play yet challenging to master, with hundreds of fun levels and stunning graphics. Perfect for kids and adults who love brain games, block puzzles, and animal-themed adventures. Play anywhere—mobile, tablet, or desktop—and become the safari master!",
+    "tags": [
+      "Arcade",
+      "Match 3",
+      "Matching",
+      "NapTech Games",
+      "Puzzle",
+      "puzzleblock"
+    ],
+    "features": [
+      {
+        "icon": "🦁",
+        "title": "Wild Safari Theme",
+        "description": "Immerse yourself in the beautiful African wilderness with stunning graphics and authentic safari atmosphere."
+      },
+      {
+        "icon": "🧩",
+        "title": "Hundreds of Levels",
+        "description": "Challenge yourself with hundreds of increasingly difficult levels that will test your puzzle-solving skills."
+      },
+      {
+        "icon": "⚡",
+        "title": "Powerful Boosters",
+        "description": "Unlock and use special boosters to clear obstacles and achieve higher scores."
+      },
+      {
+        "icon": "🏆",
+        "title": "Daily Challenges",
+        "description": "Complete daily missions and compete with friends for the highest scores."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Safari Match",
+    "subtitle": "Embark on a wild adventure through the African savanna in this addictive match-3 puzzle game!",
+    "ctaText": "Play Now",
+    "backgroundImage": "./pictures/Safari-hero.jpg"
+  },
+  "howToPlay": {
+    "title": "How to Play",
+    "sections": [
+      {
+        "title": "Basic Rules",
+        "icon": "🎯",
+        "rules": [
+          "Match 3 or more identical animal blocks in a row or column",
+          "Create special combinations for powerful effects",
+          "Clear objectives to complete each level",
+          "Use boosters strategically to overcome obstacles"
+        ]
+      },
+      {
+        "title": "Controls",
+        "icon": "⌨️",
+        "rules": [
+          "Mouse/Touch: Click or tap to select and swap blocks",
+          "Keyboard: Use arrow keys for navigation",
+          "Mobile: Swipe to move blocks"
+        ]
+      },
+      {
+        "title": "Tips & Tricks",
+        "icon": "💡",
+        "rules": [
+          "Look for potential matches before making moves",
+          "Save boosters for difficult situations",
+          "Focus on completing objectives first",
+          "Plan your moves ahead to create combos"
+        ]
+      }
+    ]
+  },
+  "fieldDescription": {
+    "title": "Game Field & Elements",
+    "subtitle": "Discover the Safari World",
+    "description": "Each level presents a unique safari landscape filled with colorful animal blocks, obstacles, and special elements. Navigate through grasslands, forests, and waterholes as you solve puzzles and unlock new areas of the wilderness.",
+    "elements": [
+      {
+        "icon": "🌿",
+        "name": "Grassland Blocks",
+        "color": "success"
+      },
+      {
+        "icon": "🌳",
+        "name": "Forest Obstacles",
+        "color": "primary"
+      },
+      {
+        "icon": "💧",
+        "name": "Water Elements",
+        "color": "secondary"
+      },
+      {
+        "icon": "🪨",
+        "name": "Rock Barriers",
+        "color": "warning"
+      }
+    ],
+    "image": "./pictures/Safari-sect1.jpg"
+  },
+
+  "reviews": {
+    "title": "Reviews Safari",
+    "subtitle": "What players say about Safari Match",
+    "items": [
+      {
+        "id": 1,
+        "name": "LionHunter_2024",
+        "avatar": {
+          "fill": "#FFD700",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Amazing safari adventure! The animal blocks are so cute and the levels get really challenging. Been playing for weeks and still discovering new strategies!",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "ZebraMaster",
+        "avatar": {
+          "fill": "#87CEEB",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Perfect game for relaxing after work! The safari theme is beautiful and the boosters are really powerful. Love the daily challenges!",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "ElephantQueen",
+        "avatar": {
+          "fill": "#98FB98",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "My kids love this game! It's educational and fun. We play together and they're learning about safari animals while solving puzzles.",
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "name": "GiraffePro",
+        "avatar": {
+          "fill": "#DDA0DD",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Best match-3 game I've ever played! The graphics are stunning and the gameplay is addictive. Can't wait for more levels!",
+        "rating": 5
+      }
+    ]
+  },
+
+  "news": {
+    "title": "Safari Match News",
+    "subtitle": "Stay updated with the latest developments, updates, and exciting stories from the wild safari world!",
+    "categories": [
+      {
+        "name": "Game Updates",
+        "articles": [
+          {
+            "id": 1,
+            "title": "Exciting New Features Released!",
+            "date": "2024-01-15",
+            "excerpt": "Discover the latest enhancements to Safari Match, including new animal blocks, special power-ups, and challenging levels that will test your puzzle-solving skills.",
+            "image": "./pictures/Safari-new1.jpg",
+            "category": "updates"
+          },
+          {
+            "id": 2,
+            "title": "100+ New Levels Added!",
+            "date": "2024-01-10",
+            "excerpt": "We've expanded the safari adventure with over 100 new challenging levels. Navigate through dense forests, cross rivers, and explore new territories.",
+            "image": "./pictures/Safari-new2.jpg",
+            "category": "updates"
+          }
+        ]
+      },
+      {
+        "name": "Trail Diaries",
+        "articles": [
+          {
+            "id": 1,
+            "title": "Behind the Scenes: Creating the Safari World",
+            "date": "2024-01-08",
+            "excerpt": "Take a journey behind the scenes and discover how our team created the immersive safari environment. Learn about the inspiration, design process, and the challenges we faced.",
+            "category": "diaries"
+          },
+          {
+            "id": 2,
+            "title": "Community Spotlight: Player Stories",
+            "date": "2024-01-05",
+            "excerpt": "Meet some of our amazing players and hear their stories. From casual gamers to puzzle masters, discover how Safari Match has brought joy to players worldwide.",
+            "category": "diaries"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions, feedback, or want to share your safari adventure? We'd love to hear from you!",
+    "description": "We're here to help and would love to hear from you. Whether you have a question about the game, want to report a bug, or just want to share your experience, don't hesitate to reach out.",
+    "methods": [
+      {
+        "type": "Email",
+        "icon": "📧",
+        "value": "contact@nextlevelquesting.com",
+        "link": "mailto:contact@nextlevelquesting.com",
+        "note": "We typically respond within 24 hours"
+      },
+      {
+        "type": "Phone",
+        "icon": "📞",
+        "value": "+44 767 522 1234",
+        "link": "tel:+447675221234",
+        "note": "Available Monday-Friday, 9 AM - 6 PM GMT"
+      },
+      {
+        "type": "Address",
+        "icon": "📍",
+        "value": "10 Downing Street, London, SW1A 2AA, United Kingdom",
+        "note": "Business inquiries welcome"
+      }
+    ],
+    "form": {
+      "title": "Send us a Message",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true,
+          "validation": "letters_only"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "validation": "email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "required": false,
+          "validation": "numbers_only"
+        },
+        {
+          "name": "subject",
+          "label": "Subject",
+          "type": "select",
+          "required": true,
+          "options": [
+            "General Inquiry",
+            "Technical Support",
+            "Game Feedback",
+            "Bug Report",
+            "Business Partnership",
+            "Other"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "type": "textarea",
+          "required": true,
+          "rows": 5
+        }
+      ],
+      "submitText": "Send Message",
+      "successMessage": "Thank you! We will contact you soon."
+    },
+    "map": {
+      "title": "Find Us",
+      "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19822.68646558132!2d-0.13043948930686272!3d51.50336370310921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cb058f0ec3%3A0x81f674da3019d0d!2s10%20Downing%20St%2C%20Westminster%2C%20London%20SW1A%202AA%2C%20UK!5e0!3m2!1sen!2sus!4v1691771234567!5m2!1sen!2sus"
+    }
+  },
+  "legal": {
+    "disclaimer": {
+      "title": "Legal Disclaimer",
+      "lastUpdated": "January 15, 2024",
+      "sections": [
+        {
+          "title": "Game Information",
+          "content": "Safari Match is a puzzle game developed and published by our team. The game is provided \"as is\" without any warranties, express or implied. We strive to provide an enjoyable gaming experience but cannot guarantee that the game will be free from errors, bugs, or interruptions."
+        },
+        {
+          "title": "Age Restrictions",
+          "content": "Safari Match is designed to be suitable for players of all ages. However, we recommend parental guidance for children under 13 years of age. Parents and guardians are responsible for monitoring their children's use of the game and ensuring appropriate content consumption."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "January 15, 2024",
+      "sections": [
+        {
+          "title": "Information We Collect",
+          "content": "When you use Safari Match, we may collect personal information, game data, device information, usage analytics, and technical data to provide and improve the gaming experience."
+        },
+        {
+          "title": "How We Use Your Information",
+          "content": "We use collected information to provide and improve the game, personalize content, analyze performance, provide support, send updates, ensure security, and comply with legal obligations."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "January 15, 2024",
+      "sections": [
+        {
+          "title": "What Are Cookies?",
+          "content": "Cookies are small text files stored on your device that help websites remember information about your visit, making your next visit easier and the site more useful."
+        },
+        {
+          "title": "How We Use Cookies",
+          "content": "We use cookies for essential functionality, performance monitoring, user experience enhancement, analytics, and security purposes in Safari Match."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "text": "Home", "url": "./" },
+          { "text": "Play Game", "url": "#game" },
+          { "text": "Features", "url": "#features" },
+          { "text": "News", "url": "./new-safari.html" },
+          { "text": "Contact", "url": "./contacts-safari.html" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "text": "Privacy Policy", "url": "./privacy-safari.html" },
+          { "text": "Cookie Policy", "url": "./cookies-safari.html" },
+          { "text": "Disclaimer", "url": "./disclaimer-safari.html" }
+        ]
+      },
+      {
+        "title": "Contact Information",
+        "type": "contact",
+        "content": {
+          "email": "contact@nextlevelquesting.com",
+          "phone": "+44 767 522 1234",
+          "address": "10 Downing Street, London, SW1A 2AA, United Kingdom"
+        }
+      },
+      {
+        "title": "Follow Us",
+        "type": "social",
+        "socialLinks": [
+          { "platform": "Facebook", "url": "#", "icon": "facebook" },
+          { "platform": "Twitter", "url": "#", "icon": "twitter" },
+          { "platform": "Instagram", "url": "#", "icon": "instagram" }
+        ]
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2024 Safari Match. All rights reserved.",
+      "poweredBy": "Powered by GameMonetize",
+      "poweredByUrl": "https://gamemonetize.com"
+    }
+  },
+  "cookies": {
+    "bar": {
+      "message": "We use cookies to enhance your gaming experience. By continuing to use this site, you agree to our use of cookies.",
+      "acceptText": "Accept",
+      "policyUrl": "./cookies-safari.html"
+    },
+    "types": [
+      {
+        "name": "safari_match_session",
+        "purpose": "Maintains your game session and progress",
+        "duration": "Session",
+        "category": "Essential"
+      },
+      {
+        "name": "safari_match_preferences",
+        "purpose": "Stores your game settings and preferences",
+        "duration": "1 year",
+        "category": "Preference"
+      },
+      {
+        "name": "safari_match_analytics",
+        "purpose": "Tracks game performance and user behavior",
+        "duration": "2 years",
+        "category": "Performance"
+      },
+      {
+        "name": "safari_match_consent",
+        "purpose": "Remembers your cookie consent choice",
+        "duration": "1 year",
+        "category": "Preference"
+      }
+    ]
+  },
+  "meta": {
+    "home": {
+      "title": "Safari Match - Wild Safari Puzzle Adventure",
+      "description": "Play Safari Match, a fun and addictive match-3 puzzle game set in the heart of the wild safari! Match colorful animal blocks, solve exciting puzzles, and unlock powerful boosters to win. Easy to play yet challenging to master, with hundreds of fun levels and stunning graphics. Perfect for kids and adults who love brain games, block puzzles, and animal-themed adventures. Play anywhere—mobile, tablet, or desktop—and become the safari master!",
+      "keywords": "Safari Match, match-3, puzzle game, safari game, animal game, brain game, block puzzle, arcade, matching, NapTech Games, puzzleblock"
+    },
+    "news": {
+      "title": "Domain.com - Safari Match News",
+      "description": "Stay updated with the latest Safari Match news, game updates, and trail diaries. Discover new features, tips, and exciting developments in the wild safari puzzle adventure.",
+      "keywords": "Safari Match news, game updates, trail diaries, safari game news, puzzle game updates"
+    },
+    "contact": {
+      "title": "Domain.com - Safari Match Contact",
+      "description": "Get in touch with the Safari Match team. Contact us for support, feedback, or business inquiries. We're here to help make your safari adventure even better!",
+      "keywords": "Safari Match contact, game support, feedback, business inquiries, customer service"
+    },
+    "disclaimer": {
+      "title": "Domain.com - Safari Match Disclaimer",
+      "description": "Legal disclaimer for Safari Match game. Important information about game usage, liability, and terms of service.",
+      "keywords": "Safari Match disclaimer, legal terms, game liability, terms of service"
+    },
+    "privacy": {
+      "title": "Domain.com - Safari Match Privacy Policy",
+      "description": "Privacy Policy for Safari Match game. Learn how we collect, use, and protect your personal information.",
+      "keywords": "Safari Match privacy policy, data protection, personal information, GDPR compliance"
+    },
+    "cookies": {
+      "title": "Domain.com - Safari Match Cookie Policy",
+      "description": "Cookie Policy for Safari Match game. Learn about the cookies we use and how to manage them.",
+      "keywords": "Safari Match cookie policy, cookies, tracking technologies, browser settings"
+    }
+  }
+}

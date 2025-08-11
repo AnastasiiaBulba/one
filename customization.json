@@ -1,0 +1,205 @@
+{
+  "current_theme": "safari",
+  "current_game_type": "match3",
+  "content_style": "adventure",
+  "color_scheme": "warm",
+  "font_family": "modern",
+  "layout_variant": "centered",
+  "language": "en",
+  "seo_settings": {
+    "focus_keywords": ["safari match", "match-3", "puzzle game", "safari game"],
+    "meta_description_length": 160,
+    "title_length": 60,
+    "use_structured_data": true
+  },
+  "content_generation": {
+
+    "auto_generate_news": true,
+    "auto_generate_features": true,
+    "use_ai_templates": true,
+    "maintain_consistency": true
+  },
+  "quick_switches": {
+    "themes": {
+      "safari": {
+        "enabled": true,
+        "priority": 1,
+        "custom_colors": null
+      },
+      "ocean": {
+        "enabled": false,
+        "priority": 2,
+        "custom_colors": null
+      },
+      "space": {
+        "enabled": false,
+        "priority": 3,
+        "custom_colors": null
+      },
+      "fantasy": {
+        "enabled": false,
+        "priority": 4,
+        "custom_colors": null
+      }
+    },
+    "game_types": {
+      "match3": {
+        "enabled": true,
+        "priority": 1,
+        "custom_mechanics": null
+      },
+      "bubble_shooter": {
+        "enabled": false,
+        "priority": 2,
+        "custom_mechanics": null
+      },
+      "candy_crush": {
+        "enabled": false,
+        "priority": 3,
+        "custom_mechanics": null
+      },
+      "puzzle_adventure": {
+        "enabled": false,
+        "priority": 4,
+        "custom_mechanics": null
+      }
+    }
+  },
+  "content_variations": {
+    "hero_sections": {
+      "adventure": {
+        "enabled": true,
+        "tone": "exciting",
+        "call_to_action": "strong"
+      },
+      "casual": {
+        "enabled": false,
+        "tone": "relaxing",
+        "call_to_action": "gentle"
+      }
+    },
+    "feature_descriptions": {
+      "visual": {
+        "enabled": true,
+        "style": "descriptive",
+        "length": "medium"
+      },
+      "gameplay": {
+        "enabled": true,
+        "style": "informative",
+        "length": "medium"
+      },
+      "social": {
+        "enabled": true,
+        "style": "engaging",
+        "length": "short"
+      }
+    },
+    "review_generation": {
+      "enabled": true,
+      "count": 4,
+      "style": "positive",
+      "include_ratings": true,
+      "custom_names": false
+    }
+  },
+  "seo_optimization": {
+    "title_patterns": {
+      "enabled": true,
+      "selected_pattern": "{game_name} - {theme_description} {game_type} Game",
+      "custom_patterns": []
+    },
+    "description_patterns": {
+      "enabled": true,
+      "selected_pattern": "Play {game_name}, a {fun_adj} and {addictive_adj} {game_type} game set in the heart of {theme}! {core_mechanics} Easy to play yet {challenge_adj} to master, with {content_amount} and {visual_adj} graphics.",
+      "custom_patterns": []
+    },
+    "keyword_integration": {
+      "enabled": true,
+      "density": "natural",
+      "placement": ["title", "description", "headings", "content"]
+    }
+  },
+  "localization": {
+    "primary_language": "en",
+    "supported_languages": ["en"],
+    "auto_translate": false,
+    "date_formats": {
+      "en": "MM/DD/YYYY",
+      "es": "DD/MM/YYYY",
+      "fr": "DD/MM/YYYY",
+      "de": "DD.MM.YYYY",
+      "ar": "DD/MM/YYYY"
+    },
+    "number_formats": {
+      "en": "1,234.56",
+      "es": "1.234,56",
+      "fr": "1 234,56",
+      "de": "1.234,56",
+      "ar": "١٬٢٣٤٫٥٦"
+    }
+  },
+  "customization_options": {
+    "color_schemes": {
+      "warm": {
+        "enabled": true,
+        "custom_colors": null
+      },
+      "cool": {
+        "enabled": false,
+        "custom_colors": null
+      },
+      "neutral": {
+        "enabled": false,
+        "custom_colors": null
+      },
+      "vibrant": {
+        "enabled": false,
+        "custom_colors": null
+      }
+    },
+    "font_families": {
+      "modern": {
+        "enabled": true,
+        "custom_fonts": null
+      },
+      "classic": {
+        "enabled": false,
+        "custom_fonts": null
+      },
+      "playful": {
+        "enabled": false,
+        "custom_fonts": null
+      },
+      "elegant": {
+        "enabled": false,
+        "custom_fonts": null
+      }
+    },
+    "layout_variants": {
+      "centered": {
+        "enabled": true,
+        "custom_settings": null
+      },
+      "left_aligned": {
+        "enabled": false,
+        "custom_settings": null
+      },
+      "full_width": {
+        "enabled": false,
+        "custom_settings": null
+      }
+    }
+  },
+  "export_settings": {
+    "formats": ["json", "html", "css"],
+    "include_templates": true,
+    "include_customization": true,
+    "include_localization": true,
+    "auto_backup": true,
+    "backup_location": "./backups/"
+  },
+  "version": "1.0.0",
+  "last_updated": "2024-01-15",
+  "created_by": "Safari Match Generator"
+}
