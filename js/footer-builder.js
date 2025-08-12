@@ -115,7 +115,7 @@ function addFooterStyles() {
         }
         
         .contact-info a {
-            color: var(--text-light);
+            color: white;
             text-decoration: none;
             transition: color var(--transition-fast);
         }
@@ -128,8 +128,21 @@ function addFooterStyles() {
             color: white;
         }
         
-        .contact-link {
-            color: black !important;
+        /* Footer-specific contact styles */
+        .main-footer .contact-info p {
+            color: white;
+        }
+        
+        .main-footer .contact-info strong {
+            color: white;
+        }
+        
+        .main-footer .contact-info a {
+            color: white !important;
+        }
+        
+        .main-footer .contact-info a:hover {
+            color: var(--accent-color) !important;
         }
         
         .social-links {

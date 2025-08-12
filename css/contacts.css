@@ -105,8 +105,21 @@
   color: var(--secondary-color);
 }
 
-.contact-link {
-  color: black !important;
+/* Page-specific contact styles */
+.contact-section .contact-info p {
+  color: var(--text-primary);
+}
+
+.contact-section .contact-info strong {
+  color: var(--text-accent);
+}
+
+.contact-section .contact-info a {
+  color: var(--text-primary) !important;
+}
+
+.contact-section .contact-info a:hover {
+  color: var(--secondary-color) !important;
 }
 
 .contact-note {

@@ -37,16 +37,6 @@ function initializeCookieBar() {
       acceptCookies();
     }
   });
-
-  // Auto-hide after 30 seconds if not accepted
-  setTimeout(() => {
-    if (!localStorage.getItem("safari-match-cookies-accepted")) {
-      cookieBar.classList.remove("show");
-      setTimeout(() => {
-        cookieBar.style.display = "none";
-      }, 500);
-    }
-  }, 30000);
 }
 
 function acceptCookies() {
