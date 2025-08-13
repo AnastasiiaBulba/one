@@ -193,6 +193,8 @@ document.addEventListener("DOMContentLoaded", function () {
     gameIframe.addEventListener("click", function () {
       if (!audioContext) {
         initializeAudioContext();
+        // Enable audio in iframe only after user interaction
+        enableGameAudio(gameIframe);
       }
     });
   }
@@ -218,6 +220,27 @@ if ("performance" in window) {
 
 // Audio context management
 let audioContext = null;
+
+function enableGameAudio(iframe) {
+  // Enable audio in iframe only after user interaction
+  try {
+    // Remove muted attribute to enable audio
+    iframe.removeAttribute("muted");
+
+    // Send message to iframe to enable audio (if same-origin)
+    iframe.contentWindow?.postMessage(
+      {
+        type: "enableAudio",
+        action: "unmute",
+      },
+      "*"
+    );
+
+    console.log("Game audio enabled after user interaction");
+  } catch (error) {
+    console.log("Could not enable game audio:", error);
+  }
+}
 
 function initializeAudioContext() {
   // Create audio context only after user interaction
@@ -250,4 +273,5 @@ window.SafariMatch = {
   checkCookieConsent,
   debounce,
   initializeAudioContext,
+  enableGameAudio,
 };
